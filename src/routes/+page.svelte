@@ -5,7 +5,7 @@
 	<title>Главная</title>
 	<meta name="description" content="Мое портфолио сделанное на svelte" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="icon" href="/favicon.png" />
+	<link rel="icon" href="/ava.webp" />
 	<meta property="og:type" content="website" />
 	<meta name="apple-mobile-web-app-title" content="Wesleezz" />
 	<meta property="og:site_name" content="Wesleezz" />
@@ -14,7 +14,6 @@
 </svelte:head>
 
 <section>
-	<div class="w-screen h-screen absolute inset-0 -z-10 bg-indigo-950 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
 	<div class="relative grid grid-rows-1 items-center justify-center gap-6 overflow-hidden mt-24"
 	>
 		<div
@@ -25,28 +24,23 @@
 			>
 			<div class="grid place-items-center">
 				<img
-					src="/ava.jpg"
+					src="/ava.webp"
 					alt="Wesleezz Logo"
 					class="h-32 w-32 rounded-full object-cover"
 				/>
 				<h1
-					class="font-manrope mx-auto -mb-8 -mt-8 max-w-5xl text-center text-5xl font-extrabold leading-[1.1] tracking-tighter line-through opacity-25 dark:opacity-25 md:text-6xl"
-				>
-					Wesleezz{' '}
-				</h1>
-				<h1
 					class="font-manrope mx-auto max-w-5xl text-center text-5xl font-extrabold leading-[1.1] tracking-tighter md:text-6xl"
 				>
-					Wiz
+					Radik
 				</h1>
 				<p class="mb-3 max-w-xl text-center text-lg leading-relaxed">
-					say my name
+					kept you waiting, huh?
 				</p>
 				<div class="grid mb-8 gap-4 sm:grid-flow-col md:gap-3">
 					<a
 						class="bg-shine animate-shine grid select-none grid-flow-col items-center justify-center gap-2.5 rounded-full bg-cyan-600 px-6 py-3 font-medium text-white outline-cyan-700 transition [--shine-color:theme(colors.teal.500/50%)] hover:bg-cyan-700 focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-offset-2 active:bg-cyan-800"
 						aria-disabled="false"
-						href="https://t.me/wesleezz"
+						href="https://t.me/radikmrfaa"
 					>
 						<svg
 							viewBox="0 0 24 24"
@@ -62,7 +56,7 @@
 					<a
 						class="bg-shine animate-shine grid select-none grid-flow-col items-center justify-center gap-2.5 rounded-full bg-purple-600 px-6 py-3 font-medium text-white outline-purple-700 transition [--shine-color:theme(colors.teal.500/50%)] hover:bg-purple-700 focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-offset-2 active:bg-purple-800"
 						aria-disabled="false"
-						href="https://discordapp.com/users/580079922614108185"
+						href="https://discordapp.com/users/943829434769735703"
 					>
 						<svg
 							viewBox="0 0 24 24"
@@ -78,7 +72,7 @@
 					<a
 						class="bg-shine animate-shine grid select-none grid-flow-col items-center justify-center gap-2.5 rounded-full bg-gray-600 px-6 py-3 font-medium text-white outline-gray-700 transition [--shine-color:theme(colors.teal.500/50%)] hover:bg-gray-700 focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-offset-2 active:bg-gray-800"
 						aria-disabled="false"
-						href="https://steamcommunity.com/id/Wesleezz"
+						href="https://steamcommunity.com/id/radikmrfa"
 					>
 						<svg
 							viewBox="0 0 24 24"
@@ -91,6 +85,16 @@
 							/>
 						</svg>
 					</a>
+					<a
+						class="bg-shine animate-shine grid select-none grid-flow-col items-center justify-center gap-2.5 rounded-full bg-blue-600 px-6 py-3 font-medium text-white outline-blue-700 transition [--shine-color:theme(colors.teal.500/50%)] hover:bg-blue-700 focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-offset-2 active:bg-blue-800"
+						aria-disabled="false"
+						href="https://www.exophase.com/user/Vladimirrr0000/"
+					>
+						<img
+							src="/trophy.png"
+							class="h-6 w-6" 
+						/>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -99,7 +103,7 @@
 
 <style>
 		:global(body) {
-		background-color: #1E1B4B;
+		background-color: #18181a;
 		color: white;
 		transition: background-color 0.3s;
 	}
